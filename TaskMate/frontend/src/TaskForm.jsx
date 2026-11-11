@@ -26,7 +26,7 @@ function TaskForm({ onAddTask, editingTask, onUpdateTask, onCancel }) {
         const taskData = {
             title: title.trim(),
             description: description.trim(),
-            completed: editingTask ? editingTask.completed : false
+               
         };
 
         if (editingTask) {
